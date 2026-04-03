@@ -1,4 +1,4 @@
-const GROQ_API_KEY = import.meta.env.VITE_GROQ_API_KEY
+const GROQ_API_KEY = import.meta.env.VITE_GROQ_API_KEY;
 
 export async function getGroqChatCompletion(prompt: string, model: string = "llama-3.1-8b-instant") {
   const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
