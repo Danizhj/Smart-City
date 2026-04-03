@@ -1,0 +1,5 @@
+{
+  "name": "Remix: AirCity",
+  "description": "A dashboard displaying transport and ecology levels with an interactive map.",
+  "requestFramePermissions": []
+}
