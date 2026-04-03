@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.custom-weather-icon {
+  background: transparent;
+  border: none;
+}
